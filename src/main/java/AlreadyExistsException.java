@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class AlreadyExistsException extends RuntimeException {
 
-public class AlreadyExistsException {
+    public AlreadyExistsException (String s){
+        super(s);
+    }
 }

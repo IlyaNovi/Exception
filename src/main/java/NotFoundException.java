@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class NotFoundException extends RuntimeException {
 
-public class NotFoundException {
+    public NotFoundException (String s){
+        super(s);
+    }
 }
